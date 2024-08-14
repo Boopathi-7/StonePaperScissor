@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+   margin-top: 5%;
+}.container{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    height: 500px;
+    border: 1px solid black;
+    
+}
+.sub_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#game{
+    color: black;
+    letter-spacing: 0.05rem;
+    text-align: center;
+}
+
+#btn{
+    margin-top: 2em;
+    font-size: 1.5rem;
+    align-self: center;
+    width: 40%;
+    justify-items:end;
+}
+p{
+    font-size: 2rem;
+    margin-top: 2em;
+    align-self: center;
+    width: 70%;
+    justify-items:end;
+}
+.box {
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-top: 1em;
+    background-size: cover; /* Ensure the background image covers the entire box */
+    background-position: center; /* Center the background image within the box */
+}
+
+
